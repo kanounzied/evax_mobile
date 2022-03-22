@@ -166,28 +166,29 @@ class _PassSanitaire3State extends State<PassSanitaire3> {
                                   width: 1.0, color: Colors.white70)),
                         ),
                       ),
-                      // Expanded(
-                      //   child: Align(
-                      //     alignment: Alignment.bottomRight,
-                      //     child: Container(
-                      //       height: 70,
-                      //       width: 200,
-                      //       child: const Align(
-                      //         child: Text(
-                      //           'Save',
-                      //           style: TextStyle(
-                      //               color: Colors.white70, fontSize: 20),
-                      //         ),
-                      //       ),
-                      //       decoration: const BoxDecoration(
-                      //         color: Colors.teal,
-                      //         borderRadius: BorderRadius.only(
-                      //           topLeft: Radius.circular(30),
-                      //         ),
-                      //       ),
-                      //     ),
-                      //   ),
-                      // ),
+                      Expanded(
+                        child: Align(
+                          alignment: Alignment.bottomRight,
+                          child: Container(
+                            height: 70,
+                            width: 200,
+                            child: Align(
+                              child: OutlinedButton(
+                                onPressed: () {
+                                  print('salem');
+                                },
+                                child: Text('Download Pass'),
+                              ),
+                            ),
+                            decoration: const BoxDecoration(
+                              color: Colors.teal,
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(30),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
