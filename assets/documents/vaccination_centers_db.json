@@ -1,0 +1,46 @@
+{
+  "vaccination_centers": [
+    {
+      "name": "centre1",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    },
+    {
+      "name": "centre2",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    },
+    {
+      "name": "centre3",
+      "state": "ariana",
+      "delegation": "ariana centre",
+      "zone": "beb hdid"
+    },
+    {
+      "name": "centre1",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    },
+    {
+      "name": "centre2",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    },
+    {
+      "name": "centre1",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    },
+    {
+      "name": "centre2",
+      "state": "sfax",
+      "delegation": "teniour",
+      "zone": "chihia"
+    }
+  ]
+}

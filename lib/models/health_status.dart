@@ -1,0 +1,4 @@
+enum HealthStatus{
+  vaccinated,
+  notVaccinated,
+}
